@@ -18,6 +18,11 @@ echo "Partial number inputs tests"
 ./project1 5ab8
 echo 
 
+echo "Decimal number tests"
+./project1 1.24
+./project1 123.45
+echo
+
 echo "Things that should work"
 ./project1 1
 ./project1 5
